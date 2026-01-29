@@ -1,7 +1,7 @@
 text = input()
 
 result = ""
-for idx in len(text):
+for idx in range(len(text)):
     if idx == 2 or idx == (len(text)-2):
         result += 'a'
     else:
